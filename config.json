@@ -1,89 +1,3344 @@
 {
-  "cache_time": 7200,
-  "api_site": {
-    "dyttzy": {
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "电影天堂资源",
-      "detail": "http://caiji.dyttzyapi.com"
+    "cache_time": 7200,
+    "api_site": {
+        "dyttzy": {
+            "key": "dyttzy",
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+            "name": "电影天堂资源",
+            "detail": "http://caiji.dyttzyapi.com",
+            "from": "config",
+            "disabled": false
+        },
+        "heimuer": {
+            "key": "heimuer",
+            "api": "https://json.heimuer.xyz/api.php/provide/vod",
+            "name": "黑木耳",
+            "detail": "https://heimuer.tv",
+            "from": "config",
+            "disabled": false
+        },
+        "ruyi": {
+            "key": "ruyi",
+            "api": "http://cj.rycjapi.com/api.php/provide/vod",
+            "name": "如意资源",
+            "from": "config",
+            "disabled": false
+        },
+        "bfzy": {
+            "key": "bfzy",
+            "api": "https://bfzyapi.com/api.php/provide/vod",
+            "name": "暴风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tyyszy": {
+            "key": "tyyszy",
+            "api": "https://tyyszy.com/api.php/provide/vod",
+            "name": "天涯资源",
+            "from": "config",
+            "disabled": false
+        },
+        "ffzy": {
+            "key": "ffzy",
+            "api": "http://ffzy5.tv/api.php/provide/vod",
+            "name": "非凡影视",
+            "detail": "http://ffzy5.tv",
+            "from": "config",
+            "disabled": false
+        },
+        "zy360": {
+            "key": "zy360",
+            "api": "https://360zy.com/api.php/provide/vod",
+            "name": "360资源",
+            "from": "config",
+            "disabled": false
+        },
+        "maotaizy": {
+            "key": "maotaizy",
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+            "name": "茅台资源",
+            "from": "config",
+            "disabled": false
+        },
+        "wolong": {
+            "key": "wolong",
+            "api": "https://wolongzyw.com/api.php/provide/vod",
+            "name": "卧龙资源",
+            "from": "config",
+            "disabled": false
+        },
+        "jisu": {
+            "key": "jisu",
+            "api": "https://jszyapi.com/api.php/provide/vod",
+            "name": "极速资源",
+            "detail": "https://jszyapi.com",
+            "from": "config",
+            "disabled": false
+        },
+        "dbzy": {
+            "key": "dbzy",
+            "api": "https://dbzy.tv/api.php/provide/vod",
+            "name": "豆瓣资源",
+            "from": "config",
+            "disabled": false
+        },
+        "mozhua": {
+            "key": "mozhua",
+            "api": "https://mozhuazy.com/api.php/provide/vod",
+            "name": "魔爪资源",
+            "from": "config",
+            "disabled": false
+        },
+        "mdzy": {
+            "key": "mdzy",
+            "api": "https://www.mdzyapi.com/api.php/provide/vod",
+            "name": "魔都资源",
+            "from": "config",
+            "disabled": false
+        },
+        "zuid": {
+            "key": "zuid",
+            "api": "https://api.zuidapi.com/api.php/provide/vod",
+            "name": "最大资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yinghua": {
+            "key": "yinghua",
+            "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+            "name": "樱花资源",
+            "from": "config",
+            "disabled": false
+        },
+        "wujin": {
+            "key": "wujin",
+            "api": "https://api.wujinapi.me/api.php/provide/vod",
+            "name": "无尽资源",
+            "from": "config",
+            "disabled": false
+        },
+        "wwzy": {
+            "key": "wwzy",
+            "api": "https://wwzy.tv/api.php/provide/vod",
+            "name": "旺旺短剧",
+            "from": "config",
+            "disabled": false
+        },
+        "ikun": {
+            "key": "ikun",
+            "api": "https://ikunzyapi.com/api.php/provide/vod",
+            "name": "iKun资源",
+            "from": "config",
+            "disabled": false
+        },
+        "lzi": {
+            "key": "lzi",
+            "api": "http://cj.lziapi.com/api.php/provide/vod",
+            "name": "量子资源站",
+            "from": "config",
+            "disabled": false
+        },
+        "xiaomaomi": {
+            "key": "xiaomaomi",
+            "api": "https://zy.xmm.hk/api.php/provide/vod",
+            "name": "小猫咪资源",
+            "from": "config",
+            "disabled": false
+        },
+        "guangsu": {
+            "key": "guangsu",
+            "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+            "name": "光速资源",
+            "from": "config",
+            "disabled": false
+        },
+        "wolong_collect": {
+            "key": "wolong_collect",
+            "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+            "name": "卧龙收集",
+            "from": "config",
+            "disabled": false
+        },
+        "kuaiying": {
+            "key": "kuaiying",
+            "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/",
+            "name": "快鹰资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nianxin_jisu": {
+            "key": "nianxin_jisu",
+            "api": "https://jszyapi.com/api.php/provide/vod/at/json",
+            "name": "念心极速",
+            "from": "config",
+            "disabled": false
+        },
+        "xinlang": {
+            "key": "xinlang",
+            "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+            "name": "新浪资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yinghua_xml": {
+            "key": "yinghua_xml",
+            "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml/",
+            "name": "樱花XML",
+            "from": "config",
+            "disabled": false
+        },
+        "taopian": {
+            "key": "taopian",
+            "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+            "name": "淘片资源",
+            "from": "config",
+            "disabled": false
+        },
+        "baiduyun": {
+            "key": "baiduyun",
+            "api": "https://api.apibdzy.com/api.php/provide/vod/",
+            "name": "百度云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "suoni": {
+            "key": "suoni",
+            "api": "https://suoniapi.com/api.php/provide/vod/",
+            "name": "索尼资源",
+            "from": "config",
+            "disabled": false
+        },
+        "huya_new": {
+            "key": "huya_new",
+            "api": "https://www.huyaapi.com/api.php/provide/vod",
+            "name": "虎牙新",
+            "from": "config",
+            "disabled": false
+        },
+        "haohua": {
+            "key": "haohua",
+            "api": "https://hhzyapi.com/api.php/provide/vod",
+            "name": "豪华资源",
+            "from": "config",
+            "disabled": false
+        },
+        "lzzytv": {
+            "key": "lzzytv",
+            "api": "http://www.lzzy.tv/api.php/provide/vod/",
+            "name": "量子lzzytv",
+            "from": "config",
+            "disabled": false
+        },
+        "jinying": {
+            "key": "jinying",
+            "api": "https://jyzyapi.com/provide/vod/",
+            "name": "金鹰资源",
+            "from": "config",
+            "disabled": false
+        },
+        "shandian_wang": {
+            "key": "shandian_wang",
+            "api": "https://sdzyapi.com/api.php/provide/vod/",
+            "name": "闪电网",
+            "from": "config",
+            "disabled": false
+        },
+        "feifan_cj": {
+            "key": "feifan_cj",
+            "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
+            "name": "非凡cj",
+            "from": "config",
+            "disabled": false
+        },
+        "modu_dongman": {
+            "key": "modu_dongman",
+            "api": "https://caiji.moduapi.cc/api.php/provide/vod/",
+            "name": "魔都动漫",
+            "from": "config",
+            "disabled": false
+        },
+        "yunjiexi": {
+            "key": "yunjiexi",
+            "api": "https://api.yparse.com/api/json",
+            "name": "云解析",
+            "from": "config",
+            "disabled": false
+        },
+        "yingtu": {
+            "key": "yingtu",
+            "api": "https://cj.vodimg.top/api.php/provide/vod/",
+            "name": "影图资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xiangkan": {
+            "key": "xiangkan",
+            "api": "https://xkanzy.com/api.php/provide/vod/",
+            "name": "享看资源",
+            "from": "config",
+            "disabled": false
+        },
+        "kuaiche": {
+            "key": "kuaiche",
+            "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+            "name": "快车资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yikan": {
+            "key": "yikan",
+            "api": "https://api.yikanapi.com/api.php/provide/vod/",
+            "name": "易看资源",
+            "from": "config",
+            "disabled": false
+        },
+        "subo": {
+            "key": "subo",
+            "api": "http://suboziyuan.net/api.php/provide/vod/",
+            "name": "速播资源",
+            "from": "config",
+            "disabled": false
+        },
+        "kuaikan": {
+            "key": "kuaikan",
+            "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikanyun",
+            "name": "快看资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tiankong": {
+            "key": "tiankong",
+            "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+            "name": "天空资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yule": {
+            "key": "yule",
+            "api": "https://ylzy11.com/api.php/provide/vod/",
+            "name": "鱼乐资源",
+            "from": "config",
+            "disabled": false
+        },
+        "1080zyku": {
+            "key": "1080zyku",
+            "api": "http://api.1080zyku.com/inc/api_mac10.php",
+            "name": "1080zyku",
+            "from": "config",
+            "disabled": false
+        },
+        "yimeng": {
+            "key": "yimeng",
+            "api": "http://anltv.cn/api.php/provide/vod/",
+            "name": "忆梦资源",
+            "from": "config",
+            "disabled": false
+        },
+        "zhendou": {
+            "key": "zhendou",
+            "api": "http://ys.realdou.cn/api.php/app/",
+            "name": "真逗资源",
+            "from": "config",
+            "disabled": false
+        },
+        "juquan": {
+            "key": "juquan",
+            "api": "http://xinxing.juquanweb.top/icciu_api.php/v1.vod",
+            "name": "具全资源",
+            "from": "config",
+            "disabled": false
+        },
+        "laimi": {
+            "key": "laimi",
+            "api": "https://www.laimi.me/api.php/v1.vod",
+            "name": "徕米资源",
+            "from": "config",
+            "disabled": false
+        },
+        "qihu": {
+            "key": "qihu",
+            "api": "https://caiji.qhzyapi.com/api.php/provide/vod/",
+            "name": "奇虎资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haiwaikan": {
+            "key": "haiwaikan",
+            "api": "http://api.haiwaikan.com/v1/vod",
+            "name": "海外看资源",
+            "from": "config",
+            "disabled": false
+        },
+        "youzhi": {
+            "key": "youzhi",
+            "api": "https://api.1080zyku.com/inc/apijson.php",
+            "name": "优质资源",
+            "from": "config",
+            "disabled": false
+        },
+        "timizy": {
+            "key": "timizy",
+            "api": "https://vipcj.timizy.top/api.php/provide/vod/",
+            "name": "timizy资源",
+            "from": "config",
+            "disabled": false
+        },
+        "kuin": {
+            "key": "kuin",
+            "api": "https://www.kuin.one/api.php/app",
+            "name": "KUIN资源",
+            "from": "config",
+            "disabled": false
+        },
+        "fuzhai": {
+            "key": "fuzhai",
+            "api": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod",
+            "name": "腐宅资源",
+            "from": "config",
+            "disabled": false
+        },
+        "quanzhan": {
+            "key": "quanzhan",
+            "api": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/",
+            "name": "全站资源",
+            "from": "config",
+            "disabled": false
+        },
+        "aigou": {
+            "key": "aigou",
+            "api": "https://api.i2g.cn/api.php/provide/vod/",
+            "name": "爱狗资源",
+            "from": "config",
+            "disabled": false
+        },
+        "leshi": {
+            "key": "leshi",
+            "api": "https://leshizyapi.com/api.php/provide/vod/at/json/",
+            "name": "乐视资源",
+            "from": "config",
+            "disabled": false
+        },
+        "zuoan": {
+            "key": "zuoan",
+            "api": "http://103.97.176.128:9528/api.php/provide/vod/",
+            "name": "左岸资源",
+            "from": "config",
+            "disabled": false
+        },
+        "49zyw": {
+            "key": "49zyw",
+            "api": "https://49zyw.com/api.php/provide/vod/",
+            "name": "49资源",
+            "from": "config",
+            "disabled": false
+        },
+        "kuaiyun": {
+            "key": "kuaiyun",
+            "api": "https://kuaiyun-api.com/api.php/provide/vod/",
+            "name": "快云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "ai1": {
+            "key": "ai1",
+            "api": "http://124.222.116.5/macos/seven/api.php/provide/vod/",
+            "name": "AI1资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yeyu_ziying": {
+            "key": "yeyu_ziying",
+            "api": "http://154.3.2.163/api.php/provide/vod/",
+            "name": "业余自营资源",
+            "from": "config",
+            "disabled": false
+        },
+        "mingdi": {
+            "key": "mingdi",
+            "api": "https://ys.md214.cn/api.php/provide/vod/",
+            "name": "明帝资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nanguo": {
+            "key": "nanguo",
+            "api": "http://api.nguonphim.tv/api.php/provide/vod/",
+            "name": "南国资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yingmi": {
+            "key": "yingmi",
+            "api": "https://www.inmi.app/api.php/provide/vod/",
+            "name": "映迷资源",
+            "from": "config",
+            "disabled": false
+        },
+        "1080p": {
+            "key": "1080p",
+            "api": "https://1080p.tv/api.php/provide/vod",
+            "name": "1080p资源",
+            "from": "config",
+            "disabled": false
+        },
+        "kudian": {
+            "key": "kudian",
+            "api": "https://kudianzy.com/api.php/provide/vod/",
+            "name": "酷点资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tom": {
+            "key": "tom",
+            "api": "https://api.tomcaiji.com/api.php/provide/vod/",
+            "name": "TOM资源",
+            "from": "config",
+            "disabled": false
+        },
+        "fox": {
+            "key": "fox",
+            "api": "https://api.foxzyapi.com/api.php/provide/vod/",
+            "name": "FOX资源",
+            "from": "config",
+            "disabled": false
+        },
+        "77hanju": {
+            "key": "77hanju",
+            "api": "https://www.77hanju.com/api.php/provide/vod/",
+            "name": "77韩剧资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xuanfeng": {
+            "key": "xuanfeng",
+            "api": "https://xuanfengzyapi.com/api.php/provide/vod/",
+            "name": "旋风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "feixing": {
+            "key": "feixing",
+            "api": "https://feixingzyapi.com/api.php/provide/vod/",
+            "name": "飞星资源",
+            "from": "config",
+            "disabled": false
+        },
+        "longma": {
+            "key": "longma",
+            "api": "https://longmazyapi.com/api.php/provide/vod/",
+            "name": "龙马资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haidao": {
+            "key": "haidao",
+            "api": "https://haidaozyapi.com/api.php/provide/vod/",
+            "name": "海盗资源",
+            "from": "config",
+            "disabled": false
+        },
+        "lanhai": {
+            "key": "lanhai",
+            "api": "https://lanhaizyapi.com/api.php/provide/vod/",
+            "name": "蓝海资源",
+            "from": "config",
+            "disabled": false
+        },
+        "zhongying": {
+            "key": "zhongying",
+            "api": "https://zhongyingzyapi.com/api.php/provide/vod/",
+            "name": "中影资源",
+            "from": "config",
+            "disabled": false
+        },
+        "shidai": {
+            "key": "shidai",
+            "api": "https://shidaizyapi.com/api.php/provide/vod/",
+            "name": "时代资源",
+            "from": "config",
+            "disabled": false
+        },
+        "jingu": {
+            "key": "jingu",
+            "api": "https://jingukzyapi.com/api.php/provide/vod/",
+            "name": "金谷资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yunfan": {
+            "key": "yunfan",
+            "api": "https://yunfanzzyapi.com/api.php/provide/vod/",
+            "name": "云帆资源",
+            "from": "config",
+            "disabled": false
+        },
+        "qingfeng": {
+            "key": "qingfeng",
+            "api": "https://qingfengzyapi.com/api.php/provide/vod/",
+            "name": "清风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tianying": {
+            "key": "tianying",
+            "api": "https://tianyingzyapi.com/api.php/provide/vod/",
+            "name": "天影资源",
+            "from": "config",
+            "disabled": false
+        },
+        "donghai": {
+            "key": "donghai",
+            "api": "https://donghaizyapi.com/api.php/provide/vod/",
+            "name": "东海资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xiha": {
+            "key": "xiha",
+            "api": "https://xihazyapi.com/api.php/provide/vod/",
+            "name": "西海资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nanfeng": {
+            "key": "nanfeng",
+            "api": "https://nanfengzyapi.com/api.php/provide/vod/",
+            "name": "南风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "beixing": {
+            "key": "beixing",
+            "api": "https://beixingzyapi.com/api.php/provide/vod/",
+            "name": "北星资源",
+            "from": "config",
+            "disabled": false
+        },
+        "huanying": {
+            "key": "huanying",
+            "api": "https://huanyingzyapi.com/api.php/provide/vod/",
+            "name": "幻影资源",
+            "from": "config",
+            "disabled": false
+        },
+        "lingyun": {
+            "key": "lingyun",
+            "api": "https://lingyunzyapi.com/api.php/provide/vod/",
+            "name": "凌云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haifeng": {
+            "key": "haifeng",
+            "api": "https://haifengzyapi.com/api.php/provide/vod/",
+            "name": "海风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yunduan": {
+            "key": "yunduan",
+            "api": "https://yunduanzzyapi.com/api.php/provide/vod/",
+            "name": "云端资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tianlong": {
+            "key": "tianlong",
+            "api": "https://tianlongzyapi.com/api.php/provide/vod/",
+            "name": "天龙资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xiyue": {
+            "key": "xiyue",
+            "api": "https://xiyuezyapi.com/api.php/provide/vod/",
+            "name": "西月资源",
+            "from": "config",
+            "disabled": false
+        },
+        "dongyue": {
+            "key": "dongyue",
+            "api": "https://dongyuezyapi.com/api.php/provide/vod/",
+            "name": "东月资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nanxing": {
+            "key": "nanxing",
+            "api": "https://nanxingzyapi.com/api.php/provide/vod/",
+            "name": "南星资源",
+            "from": "config",
+            "disabled": false
+        },
+        "beiyue": {
+            "key": "beiyue",
+            "api": "https://beiyuezyapi.com/api.php/provide/vod/",
+            "name": "北月资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haoyue": {
+            "key": "haoyue",
+            "api": "https://haoyuezyapi.com/api.php/provide/vod/",
+            "name": "皓月资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xingchen": {
+            "key": "xingchen",
+            "api": "https://xingchenzy.com/api.php/provide/vod/",
+            "name": "星辰资源",
+            "detail": "https://xingchenzy.com",
+            "from": "custom",
+            "disabled": false
+        },
+        "yinyue": {
+            "key": "yinyue",
+            "api": "https://yinyuezyapi.com/api.php/provide/vod/",
+            "name": "银月资源",
+            "from": "config",
+            "disabled": false
+        },
+        "fengyun": {
+            "key": "fengyun",
+            "api": "https://fengyunzyapi.com/api.php/provide/vod/",
+            "name": "风云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "longyun": {
+            "key": "longyun",
+            "api": "https://longyunzyapi.com/api.php/provide/vod/",
+            "name": "龙云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haoyun": {
+            "key": "haoyun",
+            "api": "https://haoyunzyapi.com/api.php/provide/vod/",
+            "name": "浩云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tianyu": {
+            "key": "tianyu",
+            "api": "https://tianyuzzyapi.com/api.php/provide/vod/",
+            "name": "天宇资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xiyun": {
+            "key": "xiyun",
+            "api": "https://xiyunzyapi.com/api.php/provide/vod/",
+            "name": "西云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "dongyun": {
+            "key": "dongyun",
+            "api": "https://dongyunzyapi.com/api.php/provide/vod/",
+            "name": "东云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nanfengyun": {
+            "key": "nanfengyun",
+            "api": "https://nanfengyunzyapi.com/api.php/provide/vod/",
+            "name": "南风云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "beiyun": {
+            "key": "beiyun",
+            "api": "https://beiyunzyapi.com/api.php/provide/vod/",
+            "name": "北云资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haoyun2": {
+            "key": "haoyun2",
+            "api": "https://haoyun2zyapi.com/api.php/provide/vod/",
+            "name": "浩云2资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tianfeng": {
+            "key": "tianfeng",
+            "api": "https://tianfengzyapi.com/api.php/provide/vod/",
+            "name": "天风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xifeng": {
+            "key": "xifeng",
+            "api": "https://xifengzyapi.com/api.php/provide/vod/",
+            "name": "西风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "dongfeng": {
+            "key": "dongfeng",
+            "api": "https://dongfengzyapi.com/api.php/provide/vod/",
+            "name": "东风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nanfeng2": {
+            "key": "nanfeng2",
+            "api": "https://nanfeng2zyapi.com/api.php/provide/vod/",
+            "name": "南风2资源",
+            "from": "config",
+            "disabled": false
+        },
+        "beifeng": {
+            "key": "beifeng",
+            "api": "https://beifengzyapi.com/api.php/provide/vod/",
+            "name": "北风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haofeng": {
+            "key": "haofeng",
+            "api": "https://haofengzyapi.com/api.php/provide/vod/",
+            "name": "浩风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yufeng": {
+            "key": "yufeng",
+            "api": "https://yufengzyapi.com/api.php/provide/vod/",
+            "name": "玉风资源",
+            "from": "config",
+            "disabled": false
+        },
+        "tianxiang": {
+            "key": "tianxiang",
+            "api": "https://tianxiangzyapi.com/api.php/provide/vod/",
+            "name": "天香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "xixiang": {
+            "key": "xixiang",
+            "api": "https://xixiangzyapi.com/api.php/provide/vod/",
+            "name": "西香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "dongxiang": {
+            "key": "dongxiang",
+            "api": "https://dongxiangzyapi.com/api.php/provide/vod/",
+            "name": "东香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "nanxiang": {
+            "key": "nanxiang",
+            "api": "https://nanxiangzyapi.com/api.php/provide/vod/",
+            "name": "南香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "beixiang": {
+            "key": "beixiang",
+            "api": "https://beixiangzyapi.com/api.php/provide/vod/",
+            "name": "北香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "haoxiang": {
+            "key": "haoxiang",
+            "api": "https://haoxiangzyapi.com/api.php/provide/vod/",
+            "name": "豪香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "yuxiang": {
+            "key": "yuxiang",
+            "api": "https://yuxiangzyapi.com/api.php/provide/vod/",
+            "name": "玉香资源",
+            "from": "config",
+            "disabled": false
+        },
+        "iptv_org_video": {
+            "key": "iptv_org_video",
+            "api": "https://iptv-org.github.io/api/video.json",
+            "name": "IPTV Org Video",
+            "detail": "https://iptv-org.github.io",
+            "from": "custom",
+            "disabled": false
+        },
+        "burningc4_video": {
+            "key": "burningc4_video",
+            "api": "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/video.m3u",
+            "name": "BurningC4 Video",
+            "detail": "https://github.com/BurningC4/Chinese-IPTV",
+            "from": "custom",
+            "disabled": false
+        },
+        "edenai_video": {
+            "key": "edenai_video",
+            "api": "https://www.edenai.co/api/video-generation",
+            "name": "Eden AI Video",
+            "detail": "https://www.edenai.co",
+            "from": "custom",
+            "disabled": false
+        },
+        "runway_video": {
+            "key": "runway_video",
+            "api": "https://runwayml.com/api/video",
+            "name": "Runway AI Video",
+            "detail": "https://runwayml.com",
+            "from": "custom",
+            "disabled": false
+        },
+        "klingai_video": {
+            "key": "klingai_video",
+            "api": "https://klingai.com/api/video",
+            "name": "Kling AI Video",
+            "detail": "https://klingai.com",
+            "from": "custom",
+            "disabled": false
+        },
+        "kuaiz": {
+            "key": "kuaiz",
+            "api": "https://kuaizapi.com/api.php/provide/vod/",
+            "name": "快Z资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "yunbo": {
+            "key": "yunbo",
+            "api": "https://yunbozy.com/api.php/provide/vod/",
+            "name": "云播资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "lanpian": {
+            "key": "lanpian",
+            "api": "https://lanpianzy.com/api.php/provide/vod/",
+            "name": "蓝片资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "huaying": {
+            "key": "huaying",
+            "api": "https://huayingzy.com/api.php/provide/vod/",
+            "name": "华影资源",
+            "detail": "https://huayingzy.com",
+            "from": "custom",
+            "disabled": false
+        },
+        "qilin": {
+            "key": "qilin",
+            "api": "https://www.qilinzyz.com/api.php/provide/vod/",
+            "name": "麒麟资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "fqzy": {
+            "key": "fqzy",
+            "api": "http://api.fqzy.cc/api.php/provide/vod/",
+            "name": "番茄资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "yilans": {
+            "key": "yilans",
+            "api": "http://zy.yilans.net:8090/api.php/provide/vod/",
+            "name": "依兰资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kuaibo": {
+            "key": "kuaibo",
+            "api": "http://www.kuaibozy.com/api.php/provide/vod/",
+            "name": "快播资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "meijufan": {
+            "key": "meijufan",
+            "api": "http://ttzmz.net/api.php/v1.vod",
+            "name": "美剧范资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "damao": {
+            "key": "damao",
+            "api": "http://app.ishen520.com/api.php/v1.vod",
+            "name": "大猫资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "tangping": {
+            "key": "tangping",
+            "api": "http://www.lltpys.com/api.php/app/",
+            "name": "躺平资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kan365": {
+            "key": "kan365",
+            "api": "https://www.kan365.xyz/api.php/app/",
+            "name": "看365资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "beichuan": {
+            "key": "beichuan",
+            "api": "https://www.bcwzg.com/api.php/app/",
+            "name": "北川资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "lanmao": {
+            "key": "lanmao",
+            "api": "https://lanmao.lanmaoymw.cn/api.php/v1.vod",
+            "name": "懒猫资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "madou": {
+            "key": "madou",
+            "api": "http://madouse.la/api.php/provide/vod/at/xml",
+            "name": "麻豆视频",
+            "from": "custom",
+            "disabled": false
+        },
+        "lajiao": {
+            "key": "lajiao",
+            "api": "http://apilj.com/api.php/provide/vod/at/xml",
+            "name": "辣椒资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "siwa": {
+            "key": "siwa",
+            "api": "https://siwazyw.cc/api.php/provide/vod/at/xml",
+            "name": "丝袜资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "mangguo": {
+            "key": "mangguo",
+            "api": "https://mgzyz1.com/api.php/provide/vod/at/xml",
+            "name": "芒果资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xiuse": {
+            "key": "xiuse",
+            "api": "https://api.xiuseapi.com/api.php/provide/vod/at/xml",
+            "name": "秀色资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "tantan": {
+            "key": "tantan",
+            "api": "https://apittzy.com/api.php/provide/vod/at/xml",
+            "name": "探探资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "huakui": {
+            "key": "huakui",
+            "api": "https://caiji.huakuiapi.com/inc/api.php",
+            "name": "花魁资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sediaosi": {
+            "key": "sediaosi",
+            "api": "http://sdszyapi.com/home/cjapi/asbb/mc/vod/xml",
+            "name": "色屌丝资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "av52": {
+            "key": "av52",
+            "api": "https://52zyapi.com/home/cjapi/asda/mc/vod/xml",
+            "name": "52AVAV",
+            "from": "custom",
+            "disabled": false
+        },
+        "shuiliandong": {
+            "key": "shuiliandong",
+            "api": "https://www.sldcaiji.com/home/cjapi/s6da/mc/vod/xml",
+            "name": "水帘洞资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "ribenav": {
+            "key": "ribenav",
+            "api": "https://ribenavzy.com/api.php/provide/vod/at/xml",
+            "name": "日本AV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "seqing": {
+            "key": "seqing",
+            "api": "https://seqingzy.com/api.php/provide/vod/at/xml",
+            "name": "色情资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "avmoo": {
+            "key": "avmoo",
+            "api": "https://avmoozy.com/api.php/provide/vod/at/xml",
+            "name": "AVMOO资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "huangse": {
+            "key": "huangse",
+            "api": "https://huangsezy.com/api.php/provide/vod/at/xml",
+            "name": "黄色资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "japanhd": {
+            "key": "japanhd",
+            "api": "https://japanhdz.com/api.php/provide/vod/at/xml",
+            "name": "JapanHD资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sewo": {
+            "key": "sewo",
+            "api": "https://sewozyapi.com/api.php/provide/vod/at/xml/",
+            "name": "涩窝🈲",
+            "from": "custom",
+            "disabled": false
+        },
+        "xxibao": {
+            "key": "xxibao",
+            "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
+            "name": "X细胞资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "huangav": {
+            "key": "huangav",
+            "api": "https://www.pgxdy.com/api.php/provide/vod/at/xml",
+            "name": "黄AV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "jdav": {
+            "key": "jdav",
+            "api": "https://cj.jdav.me/api.php/provide/vod/at/xml",
+            "name": "JDAV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "onesj": {
+            "key": "onesj",
+            "api": "https://api.1sj.tv/api.php/provide/vod/at/xml",
+            "name": "1SJ资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "avdy": {
+            "key": "avdy",
+            "api": "https://www.avdyapi.com/api.php/provide/vod/at/xml",
+            "name": "AV电影资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sejie": {
+            "key": "sejie",
+            "api": "https://sejiezy.com/api.php/provide/vod/at/xml",
+            "name": "色界资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "ribenhd": {
+            "key": "ribenhd",
+            "api": "https://ribenhdzy.com/api.php/provide/vod/at/xml",
+            "name": "日本高清资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xingai": {
+            "key": "xingai",
+            "api": "https://xingaiapi.com/api.php/provide/vod/at/xml",
+            "name": "性爱资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "avse": {
+            "key": "avse",
+            "api": "https://avsezy.com/api.php/provide/vod/at/xml",
+            "name": "AV色资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "avcode": {
+            "key": "avcode",
+            "api": "https://avcodezy.com/api.php/provide/vod/at/xml",
+            "name": "AV代码资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "javstream": {
+            "key": "javstream",
+            "api": "https://javstreamapi.com/api.php/provide/vod/at/xml",
+            "name": "JAV流资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sanji": {
+            "key": "sanji",
+            "api": "https://sanjizy.com/api.php/provide/vod/at/xml",
+            "name": "三级资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "ribenlunli": {
+            "key": "ribenlunli",
+            "api": "https://ribenlunliapi.com/api.php/provide/vod/at/xml",
+            "name": "日本伦理资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "fanhao": {
+            "key": "fanhao",
+            "api": "https://fanhaozy.com/api.php/provide/vod/at/xml",
+            "name": "番号资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "caomei": {
+            "key": "caomei",
+            "api": "https://caomeizy.com/api.php/provide/vod/at/xml",
+            "name": "草莓资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "seqingav": {
+            "key": "seqingav",
+            "api": "https://seqingavzy.com/api.php/provide/vod/at/xml",
+            "name": "色情AV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "javhd": {
+            "key": "javhd",
+            "api": "https://javhdapi.com/api.php/provide/vod/at/xml",
+            "name": "JAV HD资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "lunliav": {
+            "key": "lunliav",
+            "api": "https://lunliavzy.com/api.php/provide/vod/at/xml",
+            "name": "伦理AV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "fanhaosearch": {
+            "key": "fanhaosearch",
+            "api": "https://fanhaosearchapi.com/api.php/provide/vod/at/xml",
+            "name": "番号搜索资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "md91": {
+            "key": "md91",
+            "api": "https://91md.me/api.php/provide/vod/",
+            "name": "91麻豆",
+            "from": "custom",
+            "disabled": false
+        },
+        "putao": {
+            "key": "putao",
+            "api": "https://api.putaozy.net/inc/apijson_vod.php",
+            "name": "葡萄资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xjj": {
+            "key": "xjj",
+            "api": "https://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml",
+            "name": "小姐姐资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "wypp": {
+            "key": "wypp",
+            "api": "http://www.caiji21.com/home/cjapi/klkl/mc10/vod/xml",
+            "name": "我要啪啪",
+            "from": "custom",
+            "disabled": false
+        },
+        "avjzy": {
+            "key": "avjzy",
+            "api": "https://www.caiji22.com/home/cjapi/klp0/mc10/vod/xml",
+            "name": "AV集中淫",
+            "from": "custom",
+            "disabled": false
+        },
+        "yyl": {
+            "key": "yyl",
+            "api": "https://www.caiji23.com/home/cjapi/kls6/mc10/vod/xml",
+            "name": "夜夜撸资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "dmm": {
+            "key": "dmm",
+            "api": "https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml",
+            "name": "大MM资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "huanggua": {
+            "key": "huanggua",
+            "api": "https://www.caiji10.com/home/cjapi/cfs6/mc10/vod/xml",
+            "name": "黄瓜TV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kuaibohezi": {
+            "key": "kuaibohezi",
+            "api": "https://www.caiji09.com/home/cjapi/cfp0/mc10/vod/xml",
+            "name": "快播盒子资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "daxiangjiao": {
+            "key": "daxiangjiao",
+            "api": "https://www.caiji08.com/home/cjapi/cfkl/mc10/vod/xml",
+            "name": "大香蕉资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "ribenavonline": {
+            "key": "ribenavonline",
+            "api": "https://www.caiji07.com/home/cjapi/cfcf/mc10/vod/xml",
+            "name": "日本AV在线",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiujiuhot": {
+            "key": "jiujiuhot",
+            "api": "https://www.caiji06.com/home/cjapi/cfbb/mc10/vod/xml",
+            "name": "久久热在线",
+            "from": "custom",
+            "disabled": false
+        },
+        "qingqingcao": {
+            "key": "qingqingcao",
+            "api": "https://www.caiji05.com/home/cjapi/cfda/mc10/vod/xml",
+            "name": "青青草视频",
+            "from": "custom",
+            "disabled": false
+        },
+        "yibendao": {
+            "key": "yibendao",
+            "api": "https://www.caiji03.com/home/cjapi/cfg8/mc10/vod/xml",
+            "name": "一本道资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "caoliu": {
+            "key": "caoliu",
+            "api": "https://www.caiji02.com/home/cjapi/cfas/mc10/vod/xml",
+            "name": "草榴视频",
+            "from": "custom",
+            "disabled": false
+        },
+        "yazhou": {
+            "key": "yazhou",
+            "api": "https://www.caiji01.com/home/cjapi/cfd2/mc10/vod/xml",
+            "name": "亚洲成人在线",
+            "from": "custom",
+            "disabled": false
+        },
+        "tianlula": {
+            "key": "tianlula",
+            "api": "http://www.987caiji.com/api/max.php",
+            "name": "天噜啦资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiujiuziyuan": {
+            "key": "jiujiuziyuan",
+            "api": "http://99zy.pw/api.php/provide/vod/",
+            "name": "99资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kudou": {
+            "key": "kudou",
+            "api": "https://kudouzy.com/api.php/provide/vod/",
+            "name": "酷豆资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kudian70": {
+            "key": "kudian70",
+            "api": "https://api.kudian70.com/api.php/provide/vod/",
+            "name": "酷伦理",
+            "from": "custom",
+            "disabled": false
+        },
+        "yingku": {
+            "key": "yingku",
+            "api": "https://api.ykapi.net/api.php/provide/vod/",
+            "name": "影库资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "aibo": {
+            "key": "aibo",
+            "api": "https://cj.apiabzy.com/api.php/provide/vod/",
+            "name": "爱播资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "meishaonv": {
+            "key": "meishaonv",
+            "api": "https://www.msnii.com/api/xml.php",
+            "name": "美少女资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "yinshuiji": {
+            "key": "yinshuiji",
+            "api": "https://www.xrbsp.com/api/xml.php",
+            "name": "淫水机资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xiangnair": {
+            "key": "xiangnair",
+            "api": "https://www.gdlsp.com/api/xml.php",
+            "name": "香奶儿资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "baipiao": {
+            "key": "baipiao",
+            "api": "https://www.kxgav.com/api/xml.php",
+            "name": "白嫖资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xiaoshimei": {
+            "key": "xiaoshimei",
+            "api": "https://www.afasu.com/api/xml.php",
+            "name": "小湿妹资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "feifei": {
+            "key": "feifei",
+            "api": "http://www.feifei67.com/api.php/provide/vod/",
+            "name": "CK资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "huajiao": {
+            "key": "huajiao",
+            "api": "https://apihjzy.com/api.php/provide/vod/",
+            "name": "花椒资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "lebozy": {
+            "key": "lebozy",
+            "api": "https://lbapi9.com/api.php/provide/vod/",
+            "name": "乐播资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "btt": {
+            "key": "btt",
+            "api": "http://bttcj.com/inc/sapi.php",
+            "name": "博天堂",
+            "from": "custom",
+            "disabled": false
+        },
+        "avzy6888": {
+            "key": "avzy6888",
+            "api": "http://m.7777688.com/inc/apijson.php",
+            "name": "AVZY6888资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sese": {
+            "key": "sese",
+            "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+            "name": "色色资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiujiu": {
+            "key": "jiujiu",
+            "api": "http://99zywcj.com/inc/sapi.php?ac=videolist",
+            "name": "玖玖资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "langshaonian": {
+            "key": "langshaonian",
+            "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
+            "name": "狼少年",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiali": {
+            "key": "jiali",
+            "api": "http://www.jializyzapi.com/api.php/provide/vod/",
+            "name": "佳丽资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "shayu": {
+            "key": "shayu",
+            "api": "https://shayuapi.com/api.php/provide/speed/",
+            "name": "鲨鱼资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sudu": {
+            "key": "sudu",
+            "api": "http://www.ggmmzy.com:9999/inc/xml",
+            "name": "速度资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "ckzy": {
+            "key": "ckzy",
+            "api": "https://ckzy.me/api.php/provide/vod/at/xml/",
+            "name": "CK资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kdzy": {
+            "key": "kdzy",
+            "api": "https://api.kdapi.info/api.php/provide/vod/at/xml/",
+            "name": "酷豆",
+            "from": "custom",
+            "disabled": false
+        },
+        "kulunli": {
+            "key": "kulunli",
+            "api": "https://api.kudian70.com/api.php/provide/vod/",
+            "name": "酷伦理",
+            "from": "custom",
+            "disabled": false
+        },
+        "dadi": {
+            "key": "dadi",
+            "api": "https://dadiapi.com/api.php",
+            "name": "大地🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "syzy": {
+            "key": "syzy",
+            "api": "https://shayuapi.com/api.php/provide/vod/at/json/",
+            "name": "鲨鱼🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "fhapi": {
+            "key": "fhapi",
+            "api": "http://fhapi9.com/api.php/provide/vod/",
+            "name": "番号🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "huanya": {
+            "key": "huanya",
+            "api": "http://wmcj8.com/inc/sapi.php",
+            "name": "环亚🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "lebo": {
+            "key": "lebo",
+            "api": "https://lbapi9.com/api.php/provide/vod/at/json/",
+            "name": "乐播🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "ggmmzy": {
+            "key": "ggmmzy",
+            "api": "http://www.ggmmzy.com:9999/inc/xml",
+            "name": "速度🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "sesez": {
+            "key": "sesez",
+            "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+            "name": "色色吧🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "gdl": {
+            "key": "gdl",
+            "api": "https://www.gdlsp.com/api/xml.php",
+            "name": "香奶儿🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "bttcj": {
+            "key": "bttcj",
+            "api": "http://bttcj.com/inc/sapi.php",
+            "name": "博天堂🔞",
+            "from": "custom",
+            "disabled": false
+        },
+        "jializiyuan": {
+            "key": "jializiyuan",
+            "api": "https://jializyzapi.com/api.php/provide/vod/at/xml/",
+            "name": "佳丽🈲",
+            "from": "custom",
+            "disabled": false
+        },
+        "laoya": {
+            "key": "laoya",
+            "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+            "name": "老鸭🈲",
+            "from": "custom",
+            "disabled": false
+        },
+        "yinwo": {
+            "key": "yinwo",
+            "api": "https://api.yinwoapi.com/api.php/provide/vod/at/xml/",
+            "name": "吟窝🈲",
+            "from": "custom",
+            "disabled": false
+        },
+        "aiboz": {
+            "key": "aiboz",
+            "api": "https://cj.apiabzy.com/api.php/provide/vod/",
+            "name": "爱播🈲",
+            "from": "custom",
+            "disabled": false
+        },
+        "cjmyg": {
+            "key": "cjmyg",
+            "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
+            "name": "狼少年🈲",
+            "from": "custom",
+            "disabled": false
+        },
+        "banyungong": {
+            "key": "banyungong",
+            "api": "https://cj.banyung.xyz/",
+            "name": "搬运工资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xingyeliuhen": {
+            "key": "xingyeliuhen",
+            "api": "https://www.xingyeliuhen.net/tvbox/vod?sites=all&timeout=30",
+            "name": "星夜流痕(只支持搜索)",
+            "from": "custom",
+            "disabled": false
+        },
+        "if101": {
+            "key": "if101",
+            "api": "https://demo.if101.tv/api.php/provide/vod/at/xml",
+            "name": "if101[屏蔽国内ip]",
+            "from": "custom",
+            "disabled": false
+        },
+        "tangrenjie": {
+            "key": "tangrenjie",
+            "api": "https://www.tangrenjie.tv/api.php/provide/vod/at/xml",
+            "name": "唐人街",
+            "from": "custom",
+            "disabled": false
+        },
+        "tiantang": {
+            "key": "tiantang",
+            "api": "http://vipmv.cc/api.php/provide/vod/at/xml",
+            "name": "天堂资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "m3u8tv": {
+            "key": "m3u8tv",
+            "api": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml",
+            "name": "M3U8.TV资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "nuoxun": {
+            "key": "nuoxun",
+            "api": "http://caiji.nxflv.com/api.php/provide/vod/at/xml",
+            "name": "诺讯资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "ukuziyuan": {
+            "key": "ukuziyuan",
+            "api": "https://api.ukuapi.com/api.php/provide/vod",
+            "name": "U酷资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "kuyun": {
+            "key": "kuyun",
+            "api": "https://api.kuyun88.com/api.php/provide/vod/at/xml",
+            "name": "酷云资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "lezhu": {
+            "key": "lezhu",
+            "api": "https://api.lezhutv.com/api.php/provide/vod/at/xml",
+            "name": "乐猪资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xiaoniu": {
+            "key": "xiaoniu",
+            "api": "https://api.xiaoniutv.com/api.php/provide/vod/at/xml",
+            "name": "小牛资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "feilong": {
+            "key": "feilong",
+            "api": "http://www.feilongapi.com/api.php/provide/vod/at/xml",
+            "name": "飞龙资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "xinlan": {
+            "key": "xinlan",
+            "api": "https://api.xilanapi.com/api.php/provide/vod/at/xml",
+            "name": "新蓝网",
+            "from": "custom",
+            "disabled": false
+        },
+        "bajie": {
+            "key": "bajie",
+            "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
+            "name": "八戒资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "tiankongyun": {
+            "key": "tiankongyun",
+            "api": "https://api.tiankongapi.com/api.php/provide/vod/at/xml/from/tkm3u8",
+            "name": "天空云",
+            "from": "custom",
+            "disabled": false
+        },
+        "rongxing": {
+            "key": "rongxing",
+            "api": "https://www.rongxingvr.com/api.php/provide/vod/at/xml",
+            "name": "融兴资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "bofangya": {
+            "key": "bofangya",
+            "api": "https://www.bofangya.com/api.php/provide/vod/at/xml",
+            "name": "播放呀APP",
+            "from": "custom",
+            "disabled": false
+        },
+        "siguyy": {
+            "key": "siguyy",
+            "api": "https://www.siguyy.com/api.php/provide/vod/at/xml",
+            "name": "思古影院",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiujiumeiju": {
+            "key": "jiujiumeiju",
+            "api": "https://www.999meiju.tv/api.php/provide/vod/at/xml",
+            "name": "九九美剧",
+            "from": "custom",
+            "disabled": false
+        },
+        "mangguoav": {
+            "key": "mangguoav",
+            "api": "http://www.mgav1.cc/api.php/provide/vod/at/xml",
+            "name": "芒果AV",
+            "from": "custom",
+            "disabled": false
+        },
+        "1024ziyuan": {
+            "key": "1024ziyuan",
+            "api": "https://www.1024nf.com/api.php/provide/vod/at/xml",
+            "name": "1024资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiujiuziyuan_a": {
+            "key": "jiujiuziyuan_a",
+            "api": "http://99zywcj.com/inc/sck.php",
+            "name": "玖玖资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "jiucao": {
+            "key": "jiucao",
+            "api": "http://jcspcj8.com/sapi",
+            "name": "久草资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "mingyouguan": {
+            "key": "mingyouguan",
+            "api": "http://mygzycj.com/sapi.php",
+            "name": "名优馆资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "dadiziyuan": {
+            "key": "dadiziyuan",
+            "api": "http://dadiapi.com/sea_api.php",
+            "name": "大地资源",
+            "from": "custom",
+            "disabled": false
+        },
+        "sehuatang": {
+            "key": "sehuatang",
+            "api": "http://sehuatang.com/sapi?ac=list",
+            "name": "色花堂资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "seqiqi": {
+            "key": "seqiqi",
+            "api": "http://se77zy.com/sapi?ac=list",
+            "name": "色七七资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "sejiemei": {
+            "key": "sejiemei",
+            "api": "http://semeizi.com/sapi?ac=list",
+            "name": "色姐妹资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "caoliuziyuan": {
+            "key": "caoliuziyuan",
+            "api": "http://caolicj.com/sapi?ac=list",
+            "name": "草榴资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "madouziyuan": {
+            "key": "madouziyuan",
+            "api": "http://madouqu.com/sapi?ac=list",
+            "name": "麻豆资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "huakuiziyuan": {
+            "key": "huakuiziyuan",
+            "api": "http://huakuiqu.com/sapi?ac=list",
+            "name": "花魁资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "putaoziyuan": {
+            "key": "putaoziyuan",
+            "api": "http://putaoqu.com/sapi?ac=list",
+            "name": "葡萄资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "sewoziyuan": {
+            "key": "sewoziyuan",
+            "api": "http://sewoqu.com/sapi?ac=list",
+            "name": "色窝资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "yinwoziyuan": {
+            "key": "yinwoziyuan",
+            "api": "http://yinwoqu.com/sapi?ac=list",
+            "name": "淫窝资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "md91ziyuan": {
+            "key": "md91ziyuan",
+            "api": "http://91mdqu.com/sapi?ac=list",
+            "name": "91麻豆资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "siwaziyuan": {
+            "key": "siwaziyuan",
+            "api": "http://siwazyqu.com/sapi?ac=list",
+            "name": "丝袜资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "xiuseziyuan": {
+            "key": "xiuseziyuan",
+            "api": "http://xiusequ.com/sapi?ac=list",
+            "name": "秀色资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "tantanziyuan": {
+            "key": "tantanziyuan",
+            "api": "http://tantanqu.com/sapi?ac=list",
+            "name": "探探资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "smzyzA": {
+            "key": "smzyzA",
+            "api": "http://maozyqu.com/sapi?ac=list",
+            "name": "色猫资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "CKzyzA": {
+            "key": "CKzyzA",
+            "api": "http://ckzyqu.com/sapi?ac=list",
+            "name": "CK资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "lyzyzA": {
+            "key": "lyzyzA",
+            "api": "http://laoyaziqu.com/sapi?ac=list",
+            "name": "老鸭资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "hjzyzA": {
+            "key": "hjzyzA",
+            "api": "http://huajiaoqu.com/sapi?ac=list",
+            "name": "花椒资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "lbzyzA": {
+            "key": "lbzyzA",
+            "api": "http://leboqu.com/sapi?ac=list",
+            "name": "乐播资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "bttzyzA": {
+            "key": "bttzyzA",
+            "api": "http://bttcjqu.com/sapi?ac=list",
+            "name": "博天堂资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "AVZY6888zyzA": {
+            "key": "AVZY6888zyzA",
+            "api": "http://avzy6888qu.com/sapi?ac=list",
+            "name": "AVZY6888资源站A",
+            "from": "custom",
+            "disabled": false
+        },
+        "laosebi_main": {
+            "key": "laosebi_main",
+            "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+            "name": "老色逼主站",
+            "detail": "https://playlaosebi.com/?url=",
+            "from": "custom",
+            "disabled": false
+        },
+        "laosebi_reverse": {
+            "key": "laosebi_reverse",
+            "api": "https://apiyutu.com/api.php/providedao/vod/at/xml",
+            "name": "老色逼倒序",
+            "detail": "https://playlaosebi.com/?url=",
+            "from": "custom",
+            "disabled": false
+        },
+        "senlin_main": {
+            "key": "senlin_main",
+            "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
+            "name": "森林主站",
+            "detail": "https://slslplay.com/?url=",
+            "from": "custom",
+            "disabled": false
+        },
+        "senlin_backup": {
+            "key": "senlin_backup",
+            "api": "https://beiyong.slapibf.com/api.php/provide/vod/?ac=list",
+            "name": "森林备用",
+            "detail": "https://slslplay.com/?url=",
+            "from": "custom",
+            "disabled": false
+        }
     },
-    "heimuer": {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳",
-      "detail": "https://heimuer.tv"
-    },
-    "ruyi": {
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "如意资源"
-    },
-    "bfzy": {
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "暴风资源"
-    },
-    "tyyszy": {
-      "api": "https://tyyszy.com/api.php/provide/vod",
-      "name": "天涯资源"
-    },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv"
-    },
-    "zy360": {
-      "api": "https://360zy.com/api.php/provide/vod",
-      "name": "360资源"
-    },
-    "maotaizy": {
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "name": "茅台资源"
-    },
-    "wolong": {
-      "api": "https://wolongzyw.com/api.php/provide/vod",
-      "name": "卧龙资源"
-    },
-    "jisu": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "极速资源",
-      "detail": "https://jszyapi.com"
-    },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "豆瓣资源"
-    },
-    "mozhua": {
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "name": "魔爪资源"
-    },
-    "mdzy": {
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "name": "魔都资源"
-    },
-    "zuid": {
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "name": "最大资源"
-    },
-    "yinghua": {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "樱花资源"
-    },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源"
-    },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "旺旺短剧"
-    },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "iKun资源"
-    },
-    "lzi": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "量子资源站"
-    },
-    "xiaomaomi": {
-      "api": "https://zy.xmm.hk/api.php/provide/vod",
-      "name": "小猫咪资源"
-    }
-  }
+    "custom_category": [
+        {
+            "name": "热门",
+            "type": "movie",
+            "query": "热门",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "最新",
+            "type": "movie",
+            "query": "最新",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "经典",
+            "type": "movie",
+            "query": "经典",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "豆瓣高分",
+            "type": "movie",
+            "query": "豆瓣高分",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "冷门佳片",
+            "type": "movie",
+            "query": "冷门佳片",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "华语",
+            "type": "movie",
+            "query": "华语",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "欧美",
+            "type": "movie",
+            "query": "欧美",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "韩国",
+            "type": "movie",
+            "query": "韩国",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "日本",
+            "type": "movie",
+            "query": "日本",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "动作",
+            "type": "movie",
+            "query": "动作",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "喜剧",
+            "type": "movie",
+            "query": "喜剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "爱情",
+            "type": "movie",
+            "query": "爱情",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "科幻",
+            "type": "movie",
+            "query": "科幻",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "悬疑",
+            "type": "movie",
+            "query": "悬疑",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "恐怖",
+            "type": "movie",
+            "query": "恐怖",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "治愈",
+            "type": "movie",
+            "query": "治愈",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "美剧",
+            "type": "tv",
+            "query": "美剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "英剧",
+            "type": "tv",
+            "query": "英剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "韩剧",
+            "type": "tv",
+            "query": "韩剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "日剧",
+            "type": "tv",
+            "query": "日剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "国产剧",
+            "type": "tv",
+            "query": "国产剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "港剧",
+            "type": "tv",
+            "query": "港剧",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "日本动画",
+            "type": "tv",
+            "query": "日本动画",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "综艺",
+            "type": "tv",
+            "query": "综艺",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "纪录片",
+            "type": "tv",
+            "query": "纪录片",
+            "from": "config",
+            "disabled": false
+        },
+        {
+            "name": "动画",
+            "type": "movie",
+            "query": "动画",
+            "from": "custom",
+            "disabled": false
+        },
+        {
+            "name": "剧情",
+            "type": "movie",
+            "query": "剧情",
+            "from": "custom",
+            "disabled": false
+        },
+        {
+            "name": "奇幻",
+            "type": "movie",
+            "query": "奇幻",
+            "from": "custom",
+            "disabled": false
+        },
+        {
+            "name": "泰剧",
+            "type": "tv",
+            "query": "泰剧",
+            "from": "custom",
+            "disabled": false
+        },
+        {
+            "name": "体育",
+            "type": "tv",
+            "query": "体育",
+            "from": "custom",
+            "disabled": false
+        }
+    ],
+    "lives": [
+        {
+            "key": "550e8400-e29b-41d4-a716-446655440000",
+            "name": "自选",
+            "url": "https://iptv.slothking798.asia:9999",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "",
+            "disabled": false
+        },
+        {
+            "key": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+            "name": "cdniptv",
+            "url": "https://cdn.jsdelivr.net/gh/chao921125/source@6.4.1/iptv/index.m3u",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "",
+            "disabled": false
+        },
+        {
+            "key": "a87ff679-a66f-11ea-bb37-0242ac130002",
+            "name": "iptv",
+            "url": "https://raw.githubusercontent.com/chao921125/source/refs/heads/main/iptv/index.m3u",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "",
+            "disabled": false
+        },
+        {
+            "key": "6f35a125-8643-4cf3-9b1f-5d914012de82",
+            "name": "output",
+            "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "1",
+            "disabled": false
+        },
+        {
+            "key": "1de18a06-9104-4431-8872-39c30a5022cd",
+            "name": "vbskycn iptv4",
+            "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "2",
+            "disabled": false
+        },
+        {
+            "key": "f9d9ae06-5a94-4867-8ed7-194483fc0f64",
+            "name": "vbskycn iptv6",
+            "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "3",
+            "disabled": false
+        },
+        {
+            "key": "c9f1f0bf-537a-46a6-a111-cdc8d4924740",
+            "name": "IPTV (IPV6专用)",
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "ua": "default",
+            "epg": "IPTV",
+            "from": "config",
+            "channelNumber": "4",
+            "disabled": false
+        },
+        {
+            "key": "c9f1f0bf-537a-46a6-a111-cdc8d4924741",
+            "name": "Global直播源",
+            "url": "https://live.fanmingming.com/tv/m3u/global.m3u",
+            "ua": "default",
+            "epg": "IPTV",
+            "from": "config",
+            "channelNumber": "5",
+            "disabled": false
+        },
+        {
+            "key": "c9f1f0bf-537a-46a6-a111-cdc8d4924742",
+            "name": "Radio直播源",
+            "url": "https://live.fanmingming.com/radio/m3u/index.m3u",
+            "ua": "default",
+            "epg": "IPTV",
+            "from": "config",
+            "channelNumber": "6",
+            "disabled": false
+        },
+        {
+            "key": "c9f1f0bf-537a-46a6-a111-cdc8d4924743",
+            "name": "包头联通IPTV",
+            "url": "https://live.fanmingming.com/tv/m3u/btcu.m3u",
+            "ua": "default",
+            "epg": "IPTV",
+            "from": "config",
+            "channelNumber": "7",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226142",
+            "name": "CCTV-1 综合",
+            "url": "https://link.zhihu.com/?target=http%3A//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "8",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226143",
+            "name": "CCTV-2 财经",
+            "url": "https://link.zhihu.com/?target=http%3A//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "9",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226144",
+            "name": "CCTV-3 综艺",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "10",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226145",
+            "name": "CCTV-4 中文国际",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "11",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226146",
+            "name": "CCTV-5 体育",
+            "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "12",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226147",
+            "name": "CCTV-5+ 体育赛事",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "13",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226148",
+            "name": "CCTV-6 电影",
+            "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "14",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226149",
+            "name": "CCTV-7 国防军事",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "15",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222614a",
+            "name": "CCTV-8 电视剧",
+            "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "16",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222614b",
+            "name": "CCTV-9 纪录",
+            "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "17",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222614c",
+            "name": "CCTV-10 科教",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "18",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222614d",
+            "name": "CCTV-11 戏曲",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "19",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222614e",
+            "name": "CCTV-12 社会与法",
+            "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "20",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222614f",
+            "name": "CCTV-13 新闻",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "21",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226150",
+            "name": "CCTV-14 少儿",
+            "url": "http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "22",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226151",
+            "name": "CCTV-15 音乐",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "23",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226152",
+            "name": "CCTV-16 奥林匹克",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "24",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226153",
+            "name": "CCTV-17 农业农村",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "25",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226154",
+            "name": "CHC影迷电影",
+            "url": "http://[2001:250:5800:1005::155]:80/liverespath/bca6167afdef7fc773405c38e695b342c1d1eca0/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "26",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226155",
+            "name": "CHC动作电影",
+            "url": "http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "27",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226156",
+            "name": "CHC家庭影院",
+            "url": "http://[2001:250:5800:1005::155]:80/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "28",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226157",
+            "name": "北京卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225602/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "29",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226158",
+            "name": "天津卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225604/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "30",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226159",
+            "name": "河北卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225605/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "31",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222615a",
+            "name": "山西卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225606/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "32",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222615b",
+            "name": "内蒙古卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225607/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "33",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222615c",
+            "name": "辽宁卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225608/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "34",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222615d",
+            "name": "吉林卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225609/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "35",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222615e",
+            "name": "黑龙江卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "36",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222615f",
+            "name": "上海卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225611/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "37",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226160",
+            "name": "江苏卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "38",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226161",
+            "name": "浙江卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "39",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226162",
+            "name": "安徽卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225614/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "40",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226163",
+            "name": "福建卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225615/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "41",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226164",
+            "name": "江西卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225616/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "42",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226165",
+            "name": "山东卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225617/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "43",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226166",
+            "name": "河南卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "44",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226167",
+            "name": "湖北卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225619/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "45",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226168",
+            "name": "湖南卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225620/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "46",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226169",
+            "name": "广东卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225621/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "47",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222616a",
+            "name": "广西卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225622/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "48",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222616b",
+            "name": "海南卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225623/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "49",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222616c",
+            "name": "重庆卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225624/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "50",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222616d",
+            "name": "四川卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225625/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "51",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222616e",
+            "name": "贵州卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "52",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222616f",
+            "name": "云南卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "53",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226170",
+            "name": "陕西卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "54",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226171",
+            "name": "甘肃卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225629/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "55",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226172",
+            "name": "青海卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225630/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "56",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226173",
+            "name": "宁夏卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225631/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "57",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226174",
+            "name": "新疆卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "58",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226175",
+            "name": "兵团卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "59",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226176",
+            "name": "西藏卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "60",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226177",
+            "name": "湖南经视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "61",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226178",
+            "name": "湖南都市",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225636/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "62",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226179",
+            "name": "湖南金鹰",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225637/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "63",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222617a",
+            "name": "湖南公共",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "64",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222617b",
+            "name": "东方卫视",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225639/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "65",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222617c",
+            "name": "龙珠直播",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225640/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "66",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222617d",
+            "name": "浙江卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225641/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "67",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222617e",
+            "name": "江苏卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225642/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "68",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222617f",
+            "name": "湖南卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225643/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "69",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226180",
+            "name": "广东卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225644/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "70",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226181",
+            "name": "安徽卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225645/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "71",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226182",
+            "name": "北京卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225646/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "72",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226183",
+            "name": "天津卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225647/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "73",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226184",
+            "name": "河北卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225648/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "74",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226185",
+            "name": "山西卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225649/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "75",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226186",
+            "name": "内蒙古卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225650/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "76",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226187",
+            "name": "辽宁卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225651/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "77",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226188",
+            "name": "吉林卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "78",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226189",
+            "name": "黑龙江卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "79",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222618a",
+            "name": "上海卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "80",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222618b",
+            "name": "江苏卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225655/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "81",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222618c",
+            "name": "浙江卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "82",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222618d",
+            "name": "安徽卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "83",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222618e",
+            "name": "福建卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225658/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "84",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222618f",
+            "name": "江西卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "85",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226190",
+            "name": "山东卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "86",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226191",
+            "name": "河南卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "87",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226192",
+            "name": "湖北卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "88",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226193",
+            "name": "湖南卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "89",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226194",
+            "name": "广东卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "90",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226195",
+            "name": "广西卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "91",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226196",
+            "name": "海南卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "92",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226197",
+            "name": "重庆卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225667/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "93",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226198",
+            "name": "四川卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "94",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c372226199",
+            "name": "贵州卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "95",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222619a",
+            "name": "云南卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "96",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222619b",
+            "name": "陕西卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "97",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222619c",
+            "name": "甘肃卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "98",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222619d",
+            "name": "青海卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "99",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222619e",
+            "name": "宁夏卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "100",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c37222619f",
+            "name": "新疆卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "101",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a0",
+            "name": "兵团卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "102",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a1",
+            "name": "西藏卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "103",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a2",
+            "name": "湖南经视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225678/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "104",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a3",
+            "name": "湖南都市HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225679/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "105",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a4",
+            "name": "湖南金鹰HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "106",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a5",
+            "name": "湖南公共HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "107",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a6",
+            "name": "东方卫视HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225682/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "108",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a7",
+            "name": "龙珠直播HD",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "109",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a8",
+            "name": "央视体育赛事频道",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225684/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "110",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261a9",
+            "name": "CCTV-4K超清",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "111",
+            "disabled": false
+        },
+        {
+            "key": "81f2f67b-cfc4-4842-986e-a8c3722261aa",
+            "name": "CCTV-8K超清",
+            "url": "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225686/index.m3u8",
+            "ua": "default",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "from": "config",
+            "channelNumber": "112",
+            "disabled": false
+        }
+    ]
 }
